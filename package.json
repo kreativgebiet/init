@@ -1,12 +1,12 @@
 {
-  "name": "startr",
+  "name": "init-cli",
   "version": "0.0.1",
-  "description": "Scaffold with simple git repositories",
-  "main": "lib/scaffolder.js",
+  "description": "Initialize with simple git repositories",
+  "main": "./bin/init.js",
   "directories": {
     "test": "test"
   },
-  "bin": "./bin/scaffolder.js",
+  "bin": "./bin/init.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
