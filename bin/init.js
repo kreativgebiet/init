@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
 var co = require('co');
-var scaffolder = require('../lib');
+var init = require('../lib');
 var argv = process.argv.slice(2);
 
 co(function *() { return { args: argv }; })
-  .then(scaffolder.pull)
-  // .then(scaffolder.inquire)
-  .then(scaffolder.removal)
-  .then(scaffolder.move)
-  // .then(scaffolder.finish)
+  .then(init.pull)
+  // .then(init.inquire)
+  .then(init.removal)
+  .then(init.move)
+  // .then(init.finish)
   .catch(function *(error) {
     console.log(error);
   });
