@@ -2,7 +2,12 @@
 /* eslint-disable */
 
 require('babel-register');
+var argv = require('yargs')
+  .default({
+    git: true,
+    init: true,
+  }).argv;
 
 require('../lib')({
-  args: process.argv.slice(2)
+  args: argv
 });
