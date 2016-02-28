@@ -1,5 +1,7 @@
 # Init
 
+[![David](https://img.shields.io/david/kreativgebiet/init.svg)](https://david-dm.org/kreativgebiet/init) [![npm](https://img.shields.io/npm/v/init-cli.svg)](https://www.npmjs.com/package/init-cli) [![npm](https://img.shields.io/npm/l/init-cli.svg)](LICENSE) 
+
 Init is a new tool to quickly scaffold new projects. You can spot init projects by their `.init` file in the root of the GitHub project. It uses [Nunjucks](https://mozilla.github.io/nunjucks/), a powerful templating engine powered by Jinja2. You can use any of the methods documented on the Nunjucks documentation.
 
 ## Why?
@@ -41,8 +43,8 @@ Basically just replace kreativgebiet with the username and scaffolder-example wi
 
 In the future some options will be added to the project.
 
-- [ ] `--no-init` – initializing a new git project
-- [ ] `--no-git` – making the first `initial commit` to the project
+- [x] `--no-init` – initializing a new git project
+- [x] `--no-git` – don't initialize anything on the folder
 - [ ] `--hub repo-name` – create a new public repository on github
 
 ## What's next?
@@ -52,8 +54,8 @@ In the future some options will be added to the project.
 - [ ] Scaffolding from a local folder
 - [ ] Scaffolding from an npm package
 - [ ] Scaffolding from for yeoman packages (not yet fixed)
-- [ ] Automatically exec `git init` on project scaffolding
-- [ ] Automatically create the first commit
+- [x] Automatically exec `git init` on project scaffolding
+- [x] Automatically create the first commit
 
 ## [License](LICENSE)
 
