@@ -1,15 +1,8 @@
 #!/usr/bin/env node
+/* eslint-disable */
 
-var co = require('co');
-var init = require('../lib');
-var argv = process.argv.slice(2);
+require('babel-register');
 
-co(function *() { return { args: argv }; })
-  .then(init.pull)
-  // .then(init.inquire)
-  .then(init.removal)
-  .then(init.move)
-  // .then(init.finish)
-  .catch(function *(error) {
-    console.log(error);
-  });
+require('../lib')({
+  args: process.argv.slice(2)
+});

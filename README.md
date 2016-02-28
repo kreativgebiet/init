@@ -1,6 +1,6 @@
 # Init
 
-Init is a new tool to quickly scaffold new projects. You can spot init projects by their folder named `.init` or by the `.init.json` in the root of the GitHub project. It uses [Nunjucks](https://mozilla.github.io/nunjucks/), a powerful templating engine powered by Jinja2. You can use any of the methods documented on the Nunjucks documentation.
+Init is a new tool to quickly scaffold new projects. You can spot init projects by their folder named `.init` or by the `.init` in the root of the GitHub project. It uses [Nunjucks](https://mozilla.github.io/nunjucks/), a powerful templating engine powered by Jinja2. You can use any of the methods documented on the Nunjucks documentation.
 
 ## Why?
 
