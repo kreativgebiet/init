@@ -8,6 +8,14 @@ We at Kreativgebiet saw [Pollinate](https://github.com/everysquare/pollinate) by
 
 *Disclaimer: Code heavily inspired by Pollinate*
 
+## Installation
+
+To use the `init` command globally install it using the `-g` argument of the `npm install` command like this:
+
+```
+npm install -g init-cli
+```
+
 ## How it works
 
 Init uses Nunjucks to insert context data into the templates it grabs from GitHub (and soon other git sources and local folders). Use Nunjucks templating language (powered by Jinja2) to implement dynamic project scaffolds.
