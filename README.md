@@ -4,6 +4,8 @@
 
 Init is a new tool to quickly scaffold new projects. You can spot init projects by their `.init` file in the root of the GitHub project. It uses [Nunjucks](https://mozilla.github.io/nunjucks/), a powerful templating engine powered by Jinja2. You can use any of the methods documented on the Nunjucks documentation.
 
+[![Sponsored by Kreativgebiet](http://files.kreativgebiet.com/statics/logo.svg)](http://kreativgebiet.com/)
+
 ## Why?
 
 We at Kreativgebiet saw [Pollinate](https://github.com/everysquare/pollinate) by EverySquare the other day. Since we liked the approach but didn't want to have a json file for every project we wanted to create something that prompts the user in real-time about the data it should insert.
