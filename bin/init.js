@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* eslint-disable */
 
-require('babel-register');
+require('babel-core/register');
 var argv = require('yargs')
   .usage('Usage: $0 <repository> [options]')
   .example('$0 kreativgebiet/init-example --no-git')
