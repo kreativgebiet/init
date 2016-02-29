@@ -32,7 +32,7 @@ It's simple to use Init for scaffolding a new codebase for you next project. Sim
 Let's assume the username is `kreativgebiet` and the projectname is `init-example`. To scaffold a new project from this repository, simply use the following command:
 
 ```
-scaffolder kreativgebiet/init-example
+init kreativgebiet/init-example
 ```
 
 Since this feature isn't implemented, yet, you can initialize a new git repository with the following command and start developing with git.
