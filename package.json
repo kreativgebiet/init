@@ -1,6 +1,6 @@
 {
   "name": "init-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Initialize with simple git repositories",
   "main": "./bin/init.js",
   "repository": "git@github.com:kreativgebiet/init.git",
