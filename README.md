@@ -1,6 +1,6 @@
-# Init
+![](http://files.kreativgebiet.com/init/logo.svg)
 
-[![David](https://img.shields.io/david/kreativgebiet/init.svg)](https://david-dm.org/kreativgebiet/init) [![npm](https://img.shields.io/npm/v/init-cli.svg)](https://www.npmjs.com/package/init-cli) [![npm](https://img.shields.io/npm/l/init-cli.svg)](LICENSE) 
+[![David](https://img.shields.io/david/kreativgebiet/init.svg)](https://david-dm.org/kreativgebiet/init) [![npm](https://img.shields.io/npm/v/init-cli.svg)](https://www.npmjs.com/package/init-cli) [![npm](https://img.shields.io/npm/l/init-cli.svg)](LICENSE)
 
 Init is a new tool to quickly scaffold new projects. You can spot init projects by their `.init` file in the root of the GitHub project. It uses [Nunjucks](https://mozilla.github.io/nunjucks/), a powerful templating engine powered by Jinja2. You can use any of the methods documented on the Nunjucks documentation.
 
