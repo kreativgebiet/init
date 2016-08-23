@@ -1,3 +1,5 @@
+<img src="http://static.kreativgebiet.com/deprecation-banner.svg" style="width: 100%" alt="Deprecation Warning" />
+
 ![](http://files.kreativgebiet.com/init/logo.svg)
 
 [![David](https://img.shields.io/david/kreativgebiet/init.svg)](https://david-dm.org/kreativgebiet/init) [![npm](https://img.shields.io/npm/v/init-cli.svg)](https://www.npmjs.com/package/init-cli) [![npm](https://img.shields.io/npm/l/init-cli.svg)](LICENSE)
